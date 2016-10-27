@@ -100,7 +100,7 @@
 						<div style="padding-top:13px;" class="col-lg-12">
 							<div class="input-group input-group-sm">
 								<span class="input-group-addon">Distance</span>
-								<input id="distance" style="width:90%;" type="number" class="form-control" name="distance" value="2000"  min=100 max=6000 placeholder="Distance in Kms" required />
+								<input id="distance" style="width:90%;" type="number" class="form-control" name="distance" value="2000"  min=100 max=6000 placeholder="Distance in Kms" onkeypress="return isNumber(event)" />
 							</div>
 							<span id="emailsignuphelp" style="display:inline;color:#d9534f" class="help-block with-errors"><ul class="list-unstyled"><li>Enter distance in kms. Left click on a point in map. To view all results, right click on map</li></ul></span>
 						</div>
